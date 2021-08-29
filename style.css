@@ -1,0 +1,100 @@
+html{
+    font-family:   'helvetica neue';
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    display: flex;
+    min-height: 10vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid blanchedalmond;
+    background-image: url(image/cover1\ \(1\).jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   }
+    h1{
+        color: rgb(222 234 222);
+    }
+.heading{
+    display: flex;
+    display: inline;
+    width: 350px;
+    background: rgb(230, 233, 236);
+    border-radius: 10px;
+    
+    
+}
+.serach {
+    display: flex;
+    width:350px ;
+     justify-content: center;
+     align-items: center;
+     background: rgb(238, 241, 243);
+     border-radius: 5px;
+     
+}
+#searchBar {
+    width: 60%;
+    border-radius: 20px;
+    padding: 5px;
+}
+button{
+    border-radius: 5px  5px;
+    padding: 5px;
+    background: rgb(223, 222, 199);
+}
+.content{
+    display: flex;
+    width: 350px;
+    height: 50vh;
+    background: rgb(234, 238, 241);
+    border-radius: 10px;
+}
+.content ul li{
+    width: 280px;
+}
+.newItem{
+    display: flex;
+    width: 250px;
+    border: 1px solid green;
+    background: rgb(207, 189, 192);
+}
+.reset{
+    display: flex;
+    direction: rtl;
+}
+.date {
+    font-size: 1em;
+    color: rgba(0, 0, 0, .6);
+}
+ h3, h4{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#dltbtn, #addItembutton{
+       color: black;
+       float: right;
+       border-radius: 25px;
+       background-color: #ccc;
+       padding: 3px;
+       
+    
+}
+ul li {
+    padding: 15px;
+    list-style: number;
+}
+#addNewItem{
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    background: rgb(234, 238, 241);
+    color: cornsilk;
+}
